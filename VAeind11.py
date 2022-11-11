@@ -176,7 +176,7 @@ elif pages == 'Datasets':
     st.subheader('Dataset paar jaar.')
     st.markdown("Dataset met per jaar alle unemployment. ")
     st.dataframe(data=df1, use_container_width=False)
-     st.subheader('Dataset voor lineaire regressie.')
+    st.subheader('Dataset voor lineaire regressie.')
     st.markdown("Dataset met per jaar alle unemployment. ")
     st.dataframe(data=happiness, use_container_width=False)
 elif pages == 'Visualisaties':
