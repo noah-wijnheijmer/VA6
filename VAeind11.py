@@ -176,7 +176,7 @@ elif pages == 'Datasets':
     st.markdown("Dataset met per jaar alle unemployment. ")
     st.dataframe(data=df1, use_container_width=False)
 elif pages == 'Visualisaties':
-    st.subheader("Hier worden de visualisaties weergegeven die wij hebben opgesteld."), st.image("bar1.png", width=None ,output_format='auto'), st.image("bar2.png", width=None ,output_format='auto'), st.image("scatter.png", width=None ,output_format='auto'), st.image("map.png", width=None ,output_format='auto'), st.image("map.png", width=None ,output_format='auto'), st.image("lin.png", width=None ,output_format='auto') 
+    st.subheader("Hier worden de visualisaties weergegeven die wij hebben opgesteld."), st.image("bar1.png", width=None ,output_format='auto'), st.image("bar2.png", width=None ,output_format='auto'), st.image("scatter.png", width=None ,output_format='auto'), st.image("map1.png", width=None ,output_format='auto'), st.image("lin.png", width=None ,output_format='auto') 
 elif pages == 'Einde':
     st.markdown('Bedankt voor het bezoeken.')
     st.markdown('Noah Wijnheimer, Julius Slobbe')
