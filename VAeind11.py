@@ -25,6 +25,7 @@ import plotly.figure_factory as ff
 
 
 unemp = pd.read_csv('unemployment analysis.csv')
+happiness= pd.read_csv('world-happiness-report-2021.csv')
 
 
 # In[6]:
@@ -175,6 +176,9 @@ elif pages == 'Datasets':
     st.subheader('Dataset paar jaar.')
     st.markdown("Dataset met per jaar alle unemployment. ")
     st.dataframe(data=df1, use_container_width=False)
+     st.subheader('Dataset voor lineaire regressie.')
+    st.markdown("Dataset met per jaar alle unemployment. ")
+    st.dataframe(data=happiness, use_container_width=False)
 elif pages == 'Visualisaties':
     st.subheader("Hier worden de visualisaties weergegeven die wij hebben opgesteld."), st.image("bar1.png", width=None ,output_format='auto'), st.image("bar2.png", width=None ,output_format='auto'), st.image("scatter.png", width=None ,output_format='auto'), st.image("map1.png", width=None ,output_format='auto'), st.image("lin.png", width=None ,output_format='auto') 
 elif pages == 'Einde':
